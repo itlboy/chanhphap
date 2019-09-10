@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0031)http://phatphap.thegioiweb.org/ -->
-<html lang="vi-VN" class="uk-notouch"><script src="./tuhanhchanhphatphap_files/sdk.js.download" async="" crossorigin="anonymous"></script><script type="text/javascript" id="zb-embed-code" data-cfasync="false" src="./tuhanhchanhphatphap_files/widgets.js.download"></script><script id="facebook-jssdk" src="./tuhanhchanhphatphap_files/sdk.js(1).download"></script><script type="text/javascript" charset="utf-8" id="zm-extension" src="chrome-extension://fdcgdnkidjaadafnichfpabhfomcebme/scripts/webrtc-patch.js" async=""></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="//static.zotabox.com/__ozgcc/bundle.js" src="./tuhanhchanhphatphap_files/bundle.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="//static.zotabox.com/b/3/b3abbeb8017928772c64f734f778d6e1/data.js?1568081961889" src="./tuhanhchanhphatphap_files/data.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="//static.zotabox.com/__ozgcc/pb.default.js" src="./tuhanhchanhphatphap_files/pb.default.js.download"></script><!--<base href="http://phatphap.thegioiweb.org/">--><base href=".">
+<html lang="vi-VN" class="uk-notouch"><script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/sdk.js.download" async="" crossorigin="anonymous"></script><script type="text/javascript" id="zb-embed-code" data-cfasync="false" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/widgets.js.download"></script><script id="facebook-jssdk" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/sdk.js(1).download"></script><script type="text/javascript" charset="utf-8" id="zm-extension" src="chrome-extension://fdcgdnkidjaadafnichfpabhfomcebme/scripts/webrtc-patch.js" async=""></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="//static.zotabox.com/__ozgcc/bundle.js" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/bundle.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="//static.zotabox.com/b/3/b3abbeb8017928772c64f734f778d6e1/data.js?1568081961889" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/data.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="//static.zotabox.com/__ozgcc/pb.default.js" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/pb.default.js.download"></script><!--<base href="http://phatphap.thegioiweb.org/">--><base href=".">
 	
 	
 	
@@ -31,20 +31,20 @@
 	<meta name="twitter:description" content="Quà tặng Hùng Vương">
 	<meta name="twitter:image" content="http://phatphap.thegioiweb.org/">
 	<!--<link href="templates/acore/core.css" rel="stylesheet" />-->
-	<link href="./tuhanhchanhphatphap_files/core.css" rel="stylesheet">
+	<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/core.css" rel="stylesheet">
 	<link rel="icon" href="http://phatphap.thegioiweb.org/uploads/images/he-thong/logo.jpg" type="image/png" sizes="30x30">
-	<link href="./tuhanhchanhphatphap_files/font-awesome.min.css" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/uikit.modify.css" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/reset.css" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/library.css" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/slideshow.min.css" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/css" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/css(1)" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/css(2)" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/lightslider.min.css" rel="stylesheet">
-<link href="./tuhanhchanhphatphap_files/style.css" rel="stylesheet">
-<script src="./tuhanhchanhphatphap_files/jquery.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/uikit.min.js.download"></script>
+	<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/font-awesome.min.css" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/uikit.modify.css" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/reset.css" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/library.css" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/slideshow.min.css" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/css" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/css(1)" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/css(2)" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/lightslider.min.css" rel="stylesheet">
+<link href="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/style.css" rel="stylesheet">
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/jquery.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/uikit.min.js.download"></script>
 
 	<style type="text/css">
 		
@@ -1534,7 +1534,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
 	animation: highlight 1.3s infinite;
 }</style></head>
 <body zb-original-margin="0" zb-original-padding="0" zb-bar="show" style="margin-top: 0px; padding-top: 38px !important;">
-	<script async="" src="./tuhanhchanhphatphap_files/widgets.js(1).download"></script>	<!-- PC HEADER -->
+	<script async="" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/widgets.js(1).download"></script>	<!-- PC HEADER -->
 <header class="pc-header uk-visible-large">
 	<section class="topbar">
 		<div class="uk-container uk-container-center">
@@ -1571,7 +1571,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
 					<div class="up-text text-left">
 						<p class="text">dẫn dắt hành giả hiểu rõ chánh pháp</p>
 					</div>
-					<div class="logo" itemscope="" itemtype="https://schema.org/Hotel"><a itemprop="url" href="http://phatphap.thegioiweb.org/" title="Tu hành đúng chánh Phật Pháp"><img src="./tuhanhchanhphatphap_files/logo.png" alt="Tu hành đúng chánh Phật Pháp" itemprop="logo"></a><span class="uk-hidden">Thiết kế nội thất, sofa gỗ, vách ngăn phòng</span></div>					<div class="up-text text-right">
+					<div class="logo" itemscope="" itemtype="https://schema.org/Hotel"><a itemprop="url" href="http://phatphap.thegioiweb.org/" title="Tu hành đúng chánh Phật Pháp"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/logo.png" alt="Tu hành đúng chánh Phật Pháp" itemprop="logo"></a><span class="uk-hidden">Thiết kế nội thất, sofa gỗ, vách ngăn phòng</span></div>					<div class="up-text text-right">
 						<p class="text">hướng dẫn hành giả tu hành đạt được chứng quả</p>
 					</div>
 				</div>
@@ -1614,7 +1614,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
 		<a class="moblie-menu-btn skin-1" href="http://phatphap.thegioiweb.org/#offcanvas" data-uk-offcanvas="{target:&#39;#offcanvas&#39;}">
 			<span>Menu</span>
 		</a>
-		<div class="logo"><a href="http://phatphap.thegioiweb.org/" title="Logo"><img src="./tuhanhchanhphatphap_files/logo.png" alt="Logo"></a></div>
+		<div class="logo"><a href="http://phatphap.thegioiweb.org/" title="Logo"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/logo.png" alt="Logo"></a></div>
 		<a class="mobile-hotline" href="tel: 0987654321" title="Hotline">
 			<span class="label">Hotline: </span>
 			<span class="value">0987654321</span>
@@ -1637,7 +1637,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
 	<div class="uk-slidenav-position slide-show" data-uk-slideshow="{autoplay: true, autoplayInterval: 7500, animation: &#39;random-fx&#39;}">
 		<ul class="uk-slideshow" style="height: 336px;">
 			 
-			<li data-slideshow-slide="img" aria-hidden="false" class="uk-active" style="height: 336px;"><div class="uk-cover-background uk-position-cover" style="background-image: url(&quot;/uploads/images/logo/slide.png&quot;);"></div><img class="lazy" data-original="/uploads/images/logo/slide.png" src="./tuhanhchanhphatphap_files/slide.png" alt="/uploads/images/logo/slide.png" style="width: 100%; height: auto; opacity: 0; display: inline;"></li>
+			<li data-slideshow-slide="img" aria-hidden="false" class="uk-active" style="height: 336px;"><div class="uk-cover-background uk-position-cover" style="background-image: url(&quot;/uploads/images/logo/slide.png&quot;);"></div><img class="lazy" data-original="/uploads/images/logo/slide.png" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/slide.png" alt="/uploads/images/logo/slide.png" style="width: 100%; height: auto; opacity: 0; display: inline;"></li>
 					</ul>
 		<a href="http://phatphap.thegioiweb.org/" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
     	<a href="http://phatphap.thegioiweb.org/" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
@@ -1666,9 +1666,9 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                 <section class="main-slide">
                             <div class="uk-slidenav-position slide-show" data-uk-slideshow="{autoplay: true, autoplayInterval: 7500, animation: &#39;random-fx&#39;}">
                                 <ul class="uk-slideshow" style="height: 288px;">
-                                                                            <li data-slideshow-slide="html" aria-hidden="true" class="" style="animation-duration: 500ms; opacity: 0; height: 288px;"><a href="http://phatphap.thegioiweb.org/" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/einstein-1.png" src="./tuhanhchanhphatphap_files/einstein-1.png" alt="/uploads/images/slide/einstein-1.png" style="display: block;"></a></li>
-                                                                            <li data-slideshow-slide="html" aria-hidden="false" style="animation-duration: 500ms; opacity: 1; height: 288px;" class="uk-active"><a href="http://phatphap.thegioiweb.org/" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/thay-mc-4.png" src="./tuhanhchanhphatphap_files/thay-mc-4.png" alt="/uploads/images/slide/thay-mc-4.png" style="display: block;"></a></li>
-                                                                            <li data-slideshow-slide="html" aria-hidden="true" style="height: 288px;"><a href="http://phatphap.thegioiweb.org/" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/untitled-1.png" src="./tuhanhchanhphatphap_files/untitled-1.png" alt="/uploads/images/slide/untitled-1.png" style="display: block;"></a></li>
+                                                                            <li data-slideshow-slide="html" aria-hidden="true" class="" style="animation-duration: 500ms; opacity: 0; height: 288px;"><a href="http://phatphap.thegioiweb.org/" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/einstein-1.png" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/einstein-1.png" alt="/uploads/images/slide/einstein-1.png" style="display: block;"></a></li>
+                                                                            <li data-slideshow-slide="html" aria-hidden="false" style="animation-duration: 500ms; opacity: 1; height: 288px;" class="uk-active"><a href="http://phatphap.thegioiweb.org/" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/thay-mc-4.png" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/thay-mc-4.png" alt="/uploads/images/slide/thay-mc-4.png" style="display: block;"></a></li>
+                                                                            <li data-slideshow-slide="html" aria-hidden="true" style="height: 288px;"><a href="http://phatphap.thegioiweb.org/" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/untitled-1.png" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/untitled-1.png" alt="/uploads/images/slide/untitled-1.png" style="display: block;"></a></li>
                                                                     </ul>
                                 <a href="http://phatphap.thegioiweb.org/" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
                                 <a href="http://phatphap.thegioiweb.org/" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
@@ -1700,7 +1700,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP">LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP</a></h3>
                                                 <!--												<div class="description">
@@ -1711,7 +1711,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/tu-mot-phap-mot-phap-tu-a728.html" title="TU MỘT PHÁP, MỘT PHÁP TU" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="TU MỘT PHÁP, MỘT PHÁP TU"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/tu-mot-phap-mot-phap-tu-a728.html" title="TU MỘT PHÁP, MỘT PHÁP TU" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="TU MỘT PHÁP, MỘT PHÁP TU"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/tu-mot-phap-mot-phap-tu-a728.html" title="TU MỘT PHÁP, MỘT PHÁP TU">TU MỘT PHÁP, MỘT PHÁP TU</a></h3>
                                                 <!--												<div class="description">
@@ -1722,7 +1722,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/phuong-phap-de-ly-duc-va-ly-bat-thien-phap-a555.html" title="PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/phuong-phap-de-ly-duc-va-ly-bat-thien-phap-a555.html" title="PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/phuong-phap-de-ly-duc-va-ly-bat-thien-phap-a555.html" title="PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP">PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP</a></h3>
                                                 <!--												<div class="description">
@@ -1733,7 +1733,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/di-kinh-hanh-a444.html" title="ĐI KINH HÀNH" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="ĐI KINH HÀNH"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/di-kinh-hanh-a444.html" title="ĐI KINH HÀNH" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="ĐI KINH HÀNH"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/di-kinh-hanh-a444.html" title="ĐI KINH HÀNH">ĐI KINH HÀNH</a></h3>
                                                 <!--												<div class="description">
@@ -1744,7 +1744,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/giang-bo-tuc-bai-phap-180-kham-pha-tuyet-voi-tai-sao-phap-nhu-ly-tac-y-nhiem-mau-a195.html" title="GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/giang-bo-tuc-bai-phap-180-kham-pha-tuyet-voi-tai-sao-phap-nhu-ly-tac-y-nhiem-mau-a195.html" title="GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/giang-bo-tuc-bai-phap-180-kham-pha-tuyet-voi-tai-sao-phap-nhu-ly-tac-y-nhiem-mau-a195.html" title="GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!">GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!</a></h3>
                                                 <!--												<div class="description">
@@ -1755,7 +1755,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/bai-phap-179-thay-thanh-thien-khong-dung-kinh-de-giang-phap-a193.html" title="Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/bai-phap-179-thay-thanh-thien-khong-dung-kinh-de-giang-phap-a193.html" title="Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-.jpg" alt="Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/bai-phap-179-thay-thanh-thien-khong-dung-kinh-de-giang-phap-a193.html" title="Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP">Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP</a></h3>
                                                 <!--												<div class="description">
@@ -1784,7 +1784,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP">LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP</a></h3>
                                                 <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
@@ -1798,7 +1798,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/minh-xac-a1103.html" title="MINH XÁC" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="MINH XÁC"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/minh-xac-a1103.html" title="MINH XÁC" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="MINH XÁC"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/minh-xac-a1103.html" title="MINH XÁC">MINH XÁC</a></h3>
                                                 <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
@@ -1812,7 +1812,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/cho-an-phan-a1102.html" title="CHÓ ĂN PHÂN!" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="CHÓ ĂN PHÂN!"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/cho-an-phan-a1102.html" title="CHÓ ĂN PHÂN!" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="CHÓ ĂN PHÂN!"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/cho-an-phan-a1102.html" title="CHÓ ĂN PHÂN!">CHÓ ĂN PHÂN!</a></h3>
                                                 <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
@@ -1826,7 +1826,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/ybacdangvan-nha-lanh-dao-tuyet-voi-nhat-the-gian-a1101.html" title="YBÁCĐẰNGVÂN NHÀ LÃNH ĐẠO TUYỆT VỜI NHẤT THẾ GIAN!" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="YBÁCĐẰNGVÂN NHÀ LÃNH ĐẠO TUYỆT VỜI NHẤT THẾ GIAN!"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/ybacdangvan-nha-lanh-dao-tuyet-voi-nhat-the-gian-a1101.html" title="YBÁCĐẰNGVÂN NHÀ LÃNH ĐẠO TUYỆT VỜI NHẤT THẾ GIAN!" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="YBÁCĐẰNGVÂN NHÀ LÃNH ĐẠO TUYỆT VỜI NHẤT THẾ GIAN!"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/ybacdangvan-nha-lanh-dao-tuyet-voi-nhat-the-gian-a1101.html" title="YBÁCĐẰNGVÂN NHÀ LÃNH ĐẠO TUYỆT VỜI NHẤT THẾ GIAN!">YBÁCĐẰNGVÂN NHÀ LÃNH ĐẠO TUYỆT VỜI NHẤT THẾ GIAN!</a></h3>
                                                 <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
@@ -1840,7 +1840,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/noi-len-su-that-la-de-cuu-thoat-loai-nguoi-ra-khoi-u-me-tuyet-doi-chung-toi-khong-tranh-gianh-quyen-loi-de-lam-gi-a1100.html" title="NÓI LÊN SỰ THẬT LÀ ĐỂ CỨU THOÁT LOÀI NGƯỜI RA KHỎI U MÊ.  TUYỆT ĐỐI! CHÚNG TÔI KHÔNG TRANH GIÀNH QUYỀN LỢI ĐỂ LÀM GÌ?" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="NÓI LÊN SỰ THẬT LÀ ĐỂ CỨU THOÁT LOÀI NGƯỜI RA KHỎI U MÊ.  TUYỆT ĐỐI! CHÚNG TÔI KHÔNG TRANH GIÀNH QUYỀN LỢI ĐỂ LÀM GÌ?"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/noi-len-su-that-la-de-cuu-thoat-loai-nguoi-ra-khoi-u-me-tuyet-doi-chung-toi-khong-tranh-gianh-quyen-loi-de-lam-gi-a1100.html" title="NÓI LÊN SỰ THẬT LÀ ĐỂ CỨU THOÁT LOÀI NGƯỜI RA KHỎI U MÊ.  TUYỆT ĐỐI! CHÚNG TÔI KHÔNG TRANH GIÀNH QUYỀN LỢI ĐỂ LÀM GÌ?" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="NÓI LÊN SỰ THẬT LÀ ĐỂ CỨU THOÁT LOÀI NGƯỜI RA KHỎI U MÊ.  TUYỆT ĐỐI! CHÚNG TÔI KHÔNG TRANH GIÀNH QUYỀN LỢI ĐỂ LÀM GÌ?"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/noi-len-su-that-la-de-cuu-thoat-loai-nguoi-ra-khoi-u-me-tuyet-doi-chung-toi-khong-tranh-gianh-quyen-loi-de-lam-gi-a1100.html" title="NÓI LÊN SỰ THẬT LÀ ĐỂ CỨU THOÁT LOÀI NGƯỜI RA KHỎI U MÊ.  TUYỆT ĐỐI! CHÚNG TÔI KHÔNG TRANH GIÀNH QUYỀN LỢI ĐỂ LÀM GÌ?">NÓI LÊN SỰ THẬT LÀ ĐỂ CỨU THOÁT LOÀI NGƯỜI RA KHỎI U MÊ.  TUYỆT ĐỐI! CHÚNG TÔI KHÔNG TRANH GIÀNH QUYỀN LỢI ĐỂ LÀM GÌ?</a></h3>
                                                 <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
@@ -1854,7 +1854,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
                                                                     
                                     <li>
                                         <div class="blog">
-                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/tin-buon-cho-vn-a1099.html" title="TIN BUỒN CHO VN!" class="image img-cover"><img src="./tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="TIN BUỒN CHO VN!"></a></div>
+                                            <div class="thumb"><a href="http://phatphap.thegioiweb.org/tin-buon-cho-vn-a1099.html" title="TIN BUỒN CHO VN!" class="image img-cover"><img src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/maxresdefault-4-(1).jpg" alt="TIN BUỒN CHO VN!"></a></div>
                                             <div class="info">
                                                 <h3 class="title"><a href="http://phatphap.thegioiweb.org/tin-buon-cho-vn-a1099.html" title="TIN BUỒN CHO VN!">TIN BUỒN CHO VN!</a></h3>
                                                 <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
@@ -1944,7 +1944,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
 (Link download mp3: https://drive.google.com/open?id=0BzAYGNUdKiLyVWJuWlZWb0FwQlE)</p></div>
                     </header>
                                             <section class="panel-body">
-                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="./tuhanhchanhphatphap_files/saved_resource.html"></iframe>
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/saved_resource.html"></iframe>
                         </section>
                                     </div>
             </section>
@@ -1956,7 +1956,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
 </footer><!--.footer -->
 
 
-<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./tuhanhchanhphatphap_files/xd_arbiter.html" style="border: none;"></iframe></div><div></div></div></div>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/xd_arbiter.html" style="border: none;"></iframe></div><div></div></div></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -1964,7 +1964,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
   js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script src="./tuhanhchanhphatphap_files/platform.js.download" async="" defer="" gapi_processed="true">{lang: 'vi'}</script>	<div id="offcanvas" class="uk-offcanvas offcanvas">
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/platform.js.download" async="" defer="" gapi_processed="true">{lang: 'vi'}</script>	<div id="offcanvas" class="uk-offcanvas offcanvas">
 	<div class="uk-offcanvas-bar">
 		<form class="uk-search" action="http://phatphap.thegioiweb.org/tim-kiem-san-pham.html" data-uk-search="{}">
 		    <input class="uk-search-field" type="search" name="keyword" placeholder="Tìm kiếm...">
@@ -1991,15 +1991,15 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
 							</li>
 					</ul>
 			</div>
-</div><!-- #offcanvas -->	<script src="./tuhanhchanhphatphap_files/slider.min.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/slideshow.min.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/sticky.min.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/accordion.min.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/lightbox.min.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/readmore.min.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/lightslider.min.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/function.js.download"></script>
-<script src="./tuhanhchanhphatphap_files/library.js.download"></script>
+</div><!-- #offcanvas -->	<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/slider.min.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/slideshow.min.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/sticky.min.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/accordion.min.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/lightbox.min.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/readmore.min.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/lightslider.min.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/function.js.download"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/library.js.download"></script>
 
 <script type="text/javascript">
 	/*! Lazy Load 1.9.3 - MIT license - Copyright 2010-2013 Mika Tuupola */
@@ -2010,7 +2010,7 @@ body [data-wzb] .zb-cls:after, body [data-wzb] .zb-cls:before {
 $(document).ready(function(){$("img.lazy").lazyload({effect:"fadeIn"})});
 </script>
 
-<script src="./tuhanhchanhphatphap_files/function.js(1).download" type="text/javascript"></script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/function.js(1).download" type="text/javascript"></script>
 
 <div id="modal-cart" class="uk-modal">
 	<div class="uk-modal-dialog" style="width:768px;">
@@ -2038,7 +2038,7 @@ $(document).ready(function(){$("img.lazy").lazyload({effect:"fadeIn"})});
   js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script src="./tuhanhchanhphatphap_files/platform.js.download" async="" defer="" gapi_processed="true">{lang: 'vi'}</script>
+<script src="<?=get_template_directory_uri(); ?>/tuhanhchanhphatphap_files/platform.js.download" async="" defer="" gapi_processed="true">{lang: 'vi'}</script>
 
 
 <div data-disabled="false" data-wzb="InformationBar" data-zbwid="0d2eda43"><div id="ztb-widget-container">
