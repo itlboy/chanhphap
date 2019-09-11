@@ -18,17 +18,17 @@ function starter_customize_register($wp_customize) {
         'priority' => 10
     ));
 
-    $wp_customize->add_setting('home_page_category_setting', array(
+    $wp_customize->add_setting('home_page_number_rows_post', array(
         'default' => '#000000',
         'transport' => 'refresh',
     ));
 
-    $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'home_page_category_1', array(
-        'label' => __('Số lượng bài viết trang chủ', 'starter'),
+    $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'home_page_number_rows_post', array(
+        'label' => __('Số hàng bài viết trang chủ', 'starter'),
         'section' => 'static_front_page',
-        'settings' => 'home_page_category_setting',
+        'settings' => 'home_page_number_rows_post',
         'type' => 'select',
-        "choices" => getCategoryChoices(),
+        'choices' => [1, 2, 3, 4, 5, 6]
     )));
 
     $wp_customize->add_setting('home_page_category_setting', array(
