@@ -1,4 +1,4 @@
 <?php
-echo "aaaaaaaaaaaaaaaaaa";
+echo "bbbbbbbbbb";
 echo shell_exec("git fetch --all");
 echo shell_exec("git reset --hard origin/master");
