@@ -43,7 +43,8 @@
             </li>
         </ul>
     </div>
-</div><!-- #offcanvas -->	<script src="templates/frontend/resources/uikit/js/components/slider.min.js"></script>
+</div><!-- #offcanvas -->	
+<script src="templates/frontend/resources/uikit/js/components/slider.min.js"></script>
 <script src="templates/frontend/resources/uikit/js/components/slideshow.min.js"></script>
 <script src="templates/frontend/resources/uikit/js/components/sticky.min.js"></script>
 <script src="templates/frontend/resources/uikit/js/components/accordion.min.js"></script>
