@@ -3,8 +3,6 @@
 <html lang="vi-VN">
     <head>
         <base href="http://phatphap.thegioiweb.org/" />
-
-
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="robots" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,28 +11,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
         <meta http-equiv="refresh" content="1800" />
         <!-- for Google -->
-        <title>Pháp thực hành</title>
-        <meta name="keywords" content="" />
-        <meta name="description" content="Lưu ý hành giả đang tu hành theo chánh pháp" />
-        <link rel="canonical" href="http://phatphap.thegioiweb.org/phap-thuc-hanh.html" />	
+        <title>Tu hành đúng chánh Phật Pháp</title>
+        <meta name="keywords" content="Quà tặng Hùng Vương" />
+        <meta name="description" content="Quà tặng Hùng Vương" />
+        <link rel="canonical" href="http://phatphap.thegioiweb.org/" />	
         <!-- for Facebook -->
-        <meta property="og:title" content="Pháp thực hành" />
+        <meta property="og:title" content="Tu hành đúng chánh Phật Pháp" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="http://phatphap.thegioiweb.org/" />
-        <meta property="og:url" content="http://phatphap.thegioiweb.org/phap-thuc-hanh.html" />	<meta property="og:description" content="Lưu ý hành giả đang tu hành theo chánh pháp" />
+        <meta property="og:url" content="http://phatphap.thegioiweb.org/" />	<meta property="og:description" content="Quà tặng Hùng Vương" />
         <meta property="og:site_name" content="Tu hành đúng chánh Phật Pháp" />
         <meta property="fb:admins" content=""/>
         <meta property="fb:app_id" content="" />
 
         <!-- for Twitter -->          
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Pháp thực hành" />
-        <meta name="twitter:description" content="Lưu ý hành giả đang tu hành theo chánh pháp" />
+        <meta name="twitter:title" content="Tu hành đúng chánh Phật Pháp" />
+        <meta name="twitter:description" content="Quà tặng Hùng Vương" />
         <meta name="twitter:image" content="http://phatphap.thegioiweb.org/" />
         <!--<link href="templates/acore/core.css" rel="stylesheet" />-->
         <link href="templates/acore/core.css" rel="stylesheet" />
         <link rel="icon" href="/uploads/images/he-thong/logo.jpg"  type="image/png" sizes="30x30">
-        <link href="templates/frontend/resources/fonts/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="<?= get_template_directory_uri() ?>/font-awesome.min.css" rel="stylesheet" />
         <link href="templates/frontend/resources/uikit/css/uikit.modify.css" rel="stylesheet" />
         <link href="templates/frontend/resources/library/css/reset.css" rel="stylesheet" />
         <link href="templates/frontend/resources/library/css/library.css" rel="stylesheet" />
@@ -55,6 +53,7 @@
         </script>
     </head>
     <body>
+        <script src="https://use.fontawesome.com/034295c836.js"></script>
         <script async src="//static.zotabox.com/b/3/b3abbeb8017928772c64f734f778d6e1/widgets.js"></script>	<!-- PC HEADER -->
         <header class="pc-header uk-visible-large">
             <section class="topbar">
@@ -102,26 +101,13 @@
                     <div class=" container">
 
                         <nav class="main-nav">
-                            <ul class="uk-navbar-nav uk-clearfix main-menu">
-                                <li>
-                                    <a href="." title="Trang chủ">Trang chủ</a>
-                                </li>
-                                <li>
-                                    <a href="sach-goi-dau-tu-tap.html" title="Sách gối đầu tu tập">Sách gối đầu tu tập</a>
-                                </li>
-                                <li>
-                                    <a href="phap-thuc-hanh.html" title="Pháp thực hành">Pháp thực hành</a>
-                                </li>
-                                <li>
-                                    <a href="thay-thanh-thien.html" title="Thầy Thanh Thiện">Thầy Thanh Thiện</a>
-                                </li>
-                                <li>
-                                    <a href="cac-bai-giang-phap.html" title="Các bài giảng pháp">Các bài giảng pháp</a>
-                                </li>
-                                <li>
-                                    <a href="lien-he.html" title="Liên hệ">Liên hệ</a>
-                                </li>
-                            </ul>
+                            <?php
+                            wp_nav_menu([
+                                "menu" => "header-menu",
+                                "menu_class" => "uk-navbar-nav uk-clearfix main-menu",
+                                "container" => ""
+                            ]);
+                            ?>
                         </nav><!-- .main-nav -->
                     </div>
                 </div><!-- .uk-container -->
@@ -153,157 +139,216 @@
         </header><!-- .mobile-header -->
 
         <section id="body">
-            <div id="article-page" class="page-body">
-                <div class="breadcrumb">
-                    <div class="uk-container uk-container-center">
-                        <ul class="uk-breadcrumb">
-                            <li><a href="" title="Trang chủ"><i class="fa fa-home"></i> Trang chủ</a></li>
+            <div id="homepage">
+                <section class="main-slide">
+                    <div class="uk-slidenav-position slide-show" data-uk-slideshow="{autoplay: true, autoplayInterval: 7500, animation: 'random-fx'}">
+                        <ul class="uk-slideshow">
 
-                            <li class="uk-active"><a href="phap-thuc-hanh.html" title="Pháp thực hành">Pháp thực hành</a></li>
+                            <li><img class="lazy" data-original="/uploads/images/logo/slide.png" src="/uploads/images/logo/slide.png" alt="/uploads/images/logo/slide.png" /></li>
+                        </ul>
+                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+                        <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                            <li data-uk-slideshow-item="0"><a href=""></a></li>
                         </ul>
                     </div>
-                </div><!-- .breadcrumb -->
-                <section class="artcatalogue">
+                </section><!-- .main-slide -->
+
+                <section class="homepage-intro">
                     <div class="uk-container uk-container-center">
-                        <header class="panel-head" style="margin-bottom:40px;">
-                            <h1 class="heading-1"><span>Pháp thực hành</span></h1>
-                        </header>
+                        <div class="uk-grid uk-grid-medium uk-grid-width-medium-1-2 uk-grid-width-large-1-2">
+                            <div class="intro-wrapper">
+                                <h2 class="title">Quý vị mới đến với đạo phật ?</h2>
 
+                                <div class="description">
+                                    <p><strong>Cái nhìn tổng quát ngắn gọn và lời khuyên thiết thực</strong></p>
+
+                                    <p>Thông suốt lý thuyết chưa chắc đã tu hành được. Nhưng tu hành được thì sẽ thông suốt lý thuyết. Nói lý thuyết thì hay mà không thể nào tu hành được. Ngược lại, tu hành được tuy nói không hay, nhưng mà chính xác. Cho nên, hành giả đọc kinh sách đức Trưởng Lão chỉ đọc cho biết khái niệm mà thôi. Rồi, chuyên cần theo thầy Thanh Thiện hướng dẫn tu tập cho tâm quen thuộc y như tập thể dục hàng ngày. Khi nào tâm quen thuộc pháp Phật, hành giả tiến đến tinh tấn, tích cực tu tập thì hành giả đạt được mong muốn là điều hiển nhiên.</p>
+
+                                    <p><em><strong>Tỳ kheo Thích Thanh Thiện</strong></em></p>
+                                </div>
+                            </div>
+
+                            <div class="intro-slide">
+                                <section class="main-slide">
+                                    <div class="uk-slidenav-position slide-show" data-uk-slideshow="{autoplay: true, autoplayInterval: 7500, animation: 'random-fx'}">
+                                        <ul class="uk-slideshow">
+                                            <li><a href="" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/einstein-1.png" src="/uploads/images/slide/einstein-1.png" alt="/uploads/images/slide/einstein-1.png" /></a></li>
+                                            <li><a href="" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/thay-mc-4.png" src="/uploads/images/slide/thay-mc-4.png" alt="/uploads/images/slide/thay-mc-4.png" /></a></li>
+                                            <li><a href="" title="" class="image img-cover"><img class="lazy" data-original="/uploads/images/slide/untitled-1.png" src="/uploads/images/slide/untitled-1.png" alt="/uploads/images/slide/untitled-1.png" /></a></li>
+                                        </ul>
+                                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+                                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+                                        <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                                            <li data-uk-slideshow-item="0"><a href=""></a></li>
+                                            <li data-uk-slideshow-item="1"><a href=""></a></li>
+                                            <li data-uk-slideshow-item="2"><a href=""></a></li>
+                                        </ul>
+                                    </div>
+                                </section><!-- .main-slide -->
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <?php
+                $homePageCatgories = [11, 6];
+                foreach ($homePageCatgories as $categoryId):
+                    $args = array(
+                        'posts_per_page' => 6,
+                        'offset' => 0,
+                        'cat' => $categoryId,
+                        'category_name' => '',
+                        'orderby' => 'date',
+                        'order' => 'DESC',
+                        'include' => '',
+                        'exclude' => '',
+                        'meta_key' => '',
+                        'meta_value' => '',
+                        'post_type' => 'post',
+                        'post_mime_type' => '',
+                        'post_parent' => '',
+                        'author' => '',
+                        'author_name' => '',
+                        'post_status' => 'publish',
+                        'suppress_filters' => true,
+                        'fields' => '',
+                    );
+                    $posts = get_posts($args);
+                    echo count($posts);
+                    die();
+//                    $posts = get_posts([
+//                    "numberposts" => 6,
+//                    "category" => $categoryId,
+//                    'post_status' => 'publish',
+//                    ]);
+                    ?> 
+                    <section class="homepage-blog">
+                        <div class="uk-container uk-container-center">
+                            <header class="panel-head">
+                                <h2 class="heading-1"><a href="cac-bai-giang-phap.html" title="Các bài giảng pháp">Các bài giảng pháp</a></h2>
+                            </header>
+                            <section class="panel-body">
+                                <?php
+                                if (have_posts()) :
+                                    ?>
+                                    <ul class = "uk-list uk-clearfix uk-grid uk-grid-width-small-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-3 list-blog">
+                                        <?php
+                                        while (have_posts()) :
+                                            the_post();
+                                            ?>
+                                            <li data-post-id="<?= the_ID(); ?>">
+                                                <div class="blog new">
+                                                    <div class="thumb">
+                                                        <a href="<?= the_permalink() ?>" title="<?= the_title() ?>" class="image img-cover">
+                                                            <img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="<?= the_title() ?>" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="info">
+                                                        <h3 class="title">
+                                                            <a href="<?= the_permalink() ?>" title="<?= the_title() ?>"><?= the_title() ?>
+                                                            </a>
+                                                        </h3>
+                                                        <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
+                                                                <!--<span>12:46:06 01/03/2019</span>-->
+                                                            <span>Đã xem: 798</span>
+                                                            <span></span>															<!--<span>Phản hồi: 0</span>-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <?php
+                                        endwhile;
+                                        ?>
+                                    </ul>
+                                    <?php
+                                endif;
+                                ?>
+                            </section>
+                        </div>
+                    </section>
+                    <?php
+                endforeach;
+                ?>
+                <section class="homepage-question">
+                    <div class="uk-container uk-container-center">
+                        <header class="panel-head"><h2 class="heading-2"><a href="tra-loi-doc-gia.html" title="Trả lời độc giả">Trả lời độc giả</a></h2></header>
                         <section class="panel-body">
-                            <ul class="uk-list uk-clearfix uk-grid uk-grid-width-small-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-3 list-blog">
-
+                            <ul class="uk-list uk-clearfix uk-grid uk-grid-width-medium-1-2 uk-grid-width-large-1-3 list-question">
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP">LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>12:46:06 01/03/2019</span>
-                                                <span>Đã xem: 798</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="thuc-uan-va-tam-minh-a1105.html" title="THỨC UẨN và TAM MINH">THỨC UẨN và TAM MINH </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 05:14:10 04/03/2019</div>
                                     </div>
                                 </li>
-
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="tu-mot-phap-mot-phap-tu-a728.html" title="TU MỘT PHÁP, MỘT PHÁP TU" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="TU MỘT PHÁP, MỘT PHÁP TU" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="tu-mot-phap-mot-phap-tu-a728.html" title="TU MỘT PHÁP, MỘT PHÁP TU">TU MỘT PHÁP, MỘT PHÁP TU</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>09:22:44 18/09/2017</span>
-                                                <span>Đã xem: 2267</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="tra-loi-thu-ban-doc-121-binh-phamvan-a1095.html" title="TRẢ LỜI THƯ BẠN ĐỌC  121.- binh phamvan ">TRẢ LỜI THƯ BẠN ĐỌC  121.- binh phamvan  </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 14:56:50 22/09/2017</div>
                                     </div>
                                 </li>
-
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="phuong-phap-de-ly-duc-va-ly-bat-thien-phap-a555.html" title="PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="phuong-phap-de-ly-duc-va-ly-bat-thien-phap-a555.html" title="PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP">PHƯƠNG PHÁP ĐỂ LY DỤC VÀ LY BẤT THIỆN PHÁP</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>14:24:37 08/09/2017</span>
-                                                <span>Đã xem: 618</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="tra-loi-thu-ban-doc-120-nguoi-dua-do-tan-tuy-a1094.html" title="TRẢ LỜI THƯ BẠN ĐỌC  120.- NGƯỜI ĐƯA ĐÒ TẬN TỤY.">TRẢ LỜI THƯ BẠN ĐỌC  120.- NGƯỜI ĐƯA ĐÒ TẬN TỤY. </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 14:56:28 22/09/2017</div>
                                     </div>
                                 </li>
-
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="di-kinh-hanh-a444.html" title="ĐI KINH HÀNH" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="ĐI KINH HÀNH" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="di-kinh-hanh-a444.html" title="ĐI KINH HÀNH">ĐI KINH HÀNH</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>10:19:03 06/09/2017</span>
-                                                <span>Đã xem: 1958</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="tra-loi-thu-ban-doc-119-bichly-le-a1093.html" title="TRẢ LỜI THƯ BAN ĐỌC  119. bichly le ">TRẢ LỜI THƯ BAN ĐỌC  119. bichly le  </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 14:56:06 22/09/2017</div>
                                     </div>
                                 </li>
-
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="giang-bo-tuc-bai-phap-180-kham-pha-tuyet-voi-tai-sao-phap-nhu-ly-tac-y-nhiem-mau-a195.html" title="GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="giang-bo-tuc-bai-phap-180-kham-pha-tuyet-voi-tai-sao-phap-nhu-ly-tac-y-nhiem-mau-a195.html" title="GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!">GIẢNG BỔ TÚC: Bài pháp 180 - KHÁM PHÁ TUYỆT VỜI! TẠI SAO PHÁP NHƯ LÝ TÁC Ý NHIỆM MẦU!</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>16:10:12 14/04/2017</span>
-                                                <span>Đã xem: 1480</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="tra-loi-thu-ban-doc-118-nguoi-lai-do-tan-tuy-a1092.html" title="TRẢ LỜI THƯ BẠN ĐỌC  118.- NGƯỜI LÁI ĐÒ TẬN TỤY">TRẢ LỜI THƯ BẠN ĐỌC  118.- NGƯỜI LÁI ĐÒ TẬN TỤY </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 14:55:47 22/09/2017</div>
                                     </div>
                                 </li>
-
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="bai-phap-179-thay-thanh-thien-khong-dung-kinh-de-giang-phap-a193.html" title="Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="bai-phap-179-thay-thanh-thien-khong-dung-kinh-de-giang-phap-a193.html" title="Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP">Bài pháp 179: THẦY THANH THIỆN KHÔNG DÙNG KINH ĐỂ GIẢNG PHÁP</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>06:09:24 17/03/2017</span>
-                                                <span>Đã xem: 1244</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="tra-loi-thu-ban-doc-117-nguoi-lai-do-tan-tuy-a1091.html" title="TRẢ LỜI THƯ BẠN ĐỌC  117.- NGƯỜI LÁI ĐÒ TẬN TỤY">TRẢ LỜI THƯ BẠN ĐỌC  117.- NGƯỜI LÁI ĐÒ TẬN TỤY </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 14:55:26 22/09/2017</div>
                                     </div>
                                 </li>
-
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="bai-phap-172-con-tu-duoc-khong-thay-a186.html" title="Bài pháp 172: CON TU ĐƯỢC KHÔNG THẦY?" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="Bài pháp 172: CON TU ĐƯỢC KHÔNG THẦY?" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="bai-phap-172-con-tu-duoc-khong-thay-a186.html" title="Bài pháp 172: CON TU ĐƯỢC KHÔNG THẦY?">Bài pháp 172: CON TU ĐƯỢC KHÔNG THẦY?</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>05:41:09 11/03/2017</span>
-                                                <span>Đã xem: 1351</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="tra-loi-thu-ban-doc-116-nguyen-thuy-a1090.html" title="TRẢ LỜI THƯ BẠN ĐỌC  116.- nguyen thuy">TRẢ LỜI THƯ BẠN ĐỌC  116.- nguyen thuy </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 14:55:07 22/09/2017</div>
                                     </div>
                                 </li>
-
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="bai-phap-168-nguoi-tu-hanh-co-nen-doi-ten-khong-a180.html" title="Bài pháp 168: NGƯỜI TU HÀNH CÓ NÊN ĐỔI TÊN KHÔNG?" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="Bài pháp 168: NGƯỜI TU HÀNH CÓ NÊN ĐỔI TÊN KHÔNG?" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="bai-phap-168-nguoi-tu-hanh-co-nen-doi-ten-khong-a180.html" title="Bài pháp 168: NGƯỜI TU HÀNH CÓ NÊN ĐỔI TÊN KHÔNG?">Bài pháp 168: NGƯỜI TU HÀNH CÓ NÊN ĐỔI TÊN KHÔNG?</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>10:52:38 01/03/2017</span>
-                                                <span>Đã xem: 1667</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="tra-loi-thu-ban-doc-115-dinh-thanh-a1089.html" title="TRẢ LỜI THƯ BẠN ĐỌC  115.- Dinh Thanh">TRẢ LỜI THƯ BẠN ĐỌC  115.- Dinh Thanh </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 14:54:46 22/09/2017</div>
                                     </div>
                                 </li>
-
                                 <li>
-                                    <div class="blog">
-                                        <div class="thumb"><a href="bai-phap-162-hanh-gia-viet-hanh-gia-hoi-a175.html" title="Bài pháp 162: HÀNH GIẢ VIẾT, HÀNH GIẢ HỎI" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="Bài pháp 162: HÀNH GIẢ VIẾT, HÀNH GIẢ HỎI" /></a></div>
-                                        <div class="info">
-                                            <h3 class="title"><a href="bai-phap-162-hanh-gia-viet-hanh-gia-hoi-a175.html" title="Bài pháp 162: HÀNH GIẢ VIẾT, HÀNH GIẢ HỎI">Bài pháp 162: HÀNH GIẢ VIẾT, HÀNH GIẢ HỎI</a></h3>
-                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                                <span>16:59:44 22/02/2017</span>
-                                                <span>Đã xem: 1005</span>
-                                                <!--<span>Phản hồi: 0</span>-->
-                                            </div>
-                                        </div>
+                                    <div class="question">
+                                        <h3 class="title"><a href="tra-loi-thu-ban-doc-114-ha-vu-a1088.html" title="TRẢ LỜI THƯ BẠN ĐỌC  114.- Ha Vu">TRẢ LỜI THƯ BẠN ĐỌC  114.- Ha Vu </a></h3>
+                                        <div class="created"><i class="fa fa-clock-o"></i> 14:54:29 22/09/2017</div>
                                     </div>
                                 </li>
                             </ul>
-                        </section><!-- .panel-body -->
-                        <footer class="panel-foot">
-                            <div class="pagination mb30"><ul class="uk-pagination uk-pagination-right"><li class="uk-active"><a>1</a></li><li><a href="http://phatphap.thegioiweb.org/phap-thuc-hanh/trang-2.html" data-ci-pagination-page="2" rel="start">2</a></li><li><a href="http://phatphap.thegioiweb.org/phap-thuc-hanh/trang-3.html" data-ci-pagination-page="3">3</a></li><li><a href="http://phatphap.thegioiweb.org/phap-thuc-hanh/trang-2.html" data-ci-pagination-page="2" rel="next">&gt;</a></li><li><a href="http://phatphap.thegioiweb.org/phap-thuc-hanh/trang-4.html" data-ci-pagination-page="4">&rsaquo;</a></li></ul></div>			</footer>
+                        </section>
                     </div>
-                </section><!-- .artcatalogue -->
-            </div><!-- .page-body -->
+                </section>
+
+
+                <section class="homepage-speaker">
+                    <div class="uk-container uk-container-center">
+                        <header class="panel-head"><h2 class="heading-1 uk-text-left"><a href="phap-am.html" title="Pháp âm">Pháp âm</a></h2>
+                            <div class="description"><p>Toàn bộ các bài giảng của Thầy Thanh Thiện được đọc tại đây. Mời các bạn đón nghe:<br />
+                                    (Link download mp3: https://drive.google.com/open?id=0BzAYGNUdKiLyVWJuWlZWb0FwQlE)</p></div>
+                        </header>
+                        <section class="panel-body">
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/297973089&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                        </section>
+                    </div>
+                </section>
+
+            </div>
         </section><!-- #body -->
         <footer class="footer">
 
@@ -321,7 +366,8 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
         <script src="https://apis.google.com/js/platform.js" async defer>{
-                lang: 'vi'}</script>	<div id="offcanvas" class="uk-offcanvas offcanvas">
+                lang: 'vi'
+            }</script>	<div id="offcanvas" class="uk-offcanvas offcanvas">
             <div class="uk-offcanvas-bar">
                 <form class="uk-search" action="tim-kiem-san-pham.html" data-uk-search="{}">
                     <input class="uk-search-field" type="search" name="keyword" placeholder="Tìm kiếm...">
