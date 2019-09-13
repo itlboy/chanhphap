@@ -31,18 +31,17 @@
         <!--<link href="templates/acore/core.css" rel="stylesheet" />-->
         <link href="templates/acore/core.css" rel="stylesheet" />
         <link rel="icon" href="/uploads/images/he-thong/logo.jpg"  type="image/png" sizes="30x30">
-        <link href="<?= get_template_directory_uri() ?>/font-awesome.min.css" rel="stylesheet" />
-        <link href="templates/frontend/resources/uikit/css/uikit.modify.css" rel="stylesheet" />
-        <link href="templates/frontend/resources/library/css/reset.css" rel="stylesheet" />
-        <link href="templates/frontend/resources/library/css/library.css" rel="stylesheet" />
-        <link href="templates/frontend/resources/uikit/css/components/slideshow.min.css" rel="stylesheet" />
+        <link href="<?= get_template_directory_uri() ?>/old_files/uikit/css/uikit.modify.css" rel="stylesheet" />
+        <link href="<?= get_template_directory_uri() ?>/old_files/library/css/reset.css" rel="stylesheet" />
+        <link href="<?= get_template_directory_uri() ?>/old_files/library/css/library.css" rel="stylesheet" />
+        <link href="<?= get_template_directory_uri() ?>/old_files/uikit/css/components/slideshow.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700%7COpen+Sans:400,600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <link href="templates/frontend/resources/plugins/lightslider-master/dist/css/lightslider.min.css" rel="stylesheet" />
-        <link href="templates/frontend/resources/style.css" rel="stylesheet" />
-        <script src="templates/frontend/resources/library/js/jquery.js"></script>
-        <script src="templates/frontend/resources/uikit/js/uikit.min.js"></script>
+        <link href="<?= get_template_directory_uri() ?>/old_files/plugins/lightslider-master/dist/css/lightslider.min.css" rel="stylesheet" />
+        <link href="<?= get_template_directory_uri() ?>/old_files/style.css" rel="stylesheet" />
+        <script src="<?= get_template_directory_uri() ?>/old_files/library/js/jquery.js"></script>
+        <script src="<?= get_template_directory_uri() ?>/old_files/uikit/js/uikit.min.js"></script>
 
         <style type="text/css">
             #wpadminbar {

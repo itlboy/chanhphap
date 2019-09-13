@@ -1,5 +1,4 @@
 <?php
-
 function getCategoryChoices() {
     $categories = get_categories(array(
         'orderby' => 'name',

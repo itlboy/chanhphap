@@ -44,15 +44,15 @@
         </ul>
     </div>
 </div><!-- #offcanvas -->	
-<script src="templates/frontend/resources/uikit/js/components/slider.min.js"></script>
-<script src="templates/frontend/resources/uikit/js/components/slideshow.min.js"></script>
-<script src="templates/frontend/resources/uikit/js/components/sticky.min.js"></script>
-<script src="templates/frontend/resources/uikit/js/components/accordion.min.js"></script>
-<script src="templates/frontend/resources/uikit/js/components/lightbox.min.js"></script>
-<script src="templates/frontend/resources/plugins/Readmore/readmore.min.js"></script>
-<script src="templates/frontend/resources/plugins/lightslider-master/dist/js/lightslider.min.js"></script>
-<script src="templates/frontend/resources/function.js"></script>
-<script src="templates/frontend/resources/library/js/library.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/uikit/js/components/slider.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/uikit/js/components/slideshow.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/uikit/js/components/sticky.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/uikit/js/components/accordion.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/uikit/js/components/lightbox.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/plugins/Readmore/readmore.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/plugins/lightslider-master/dist/js/lightslider.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/function.js"></script>
+<script src="<?= get_template_directory_uri() ?>/old_files/library/js/library.js"></script>
 
 <script type="text/javascript">
     /*! Lazy Load 1.9.3 - MIT license - Copyright 2010-2013 Mika Tuupola */
