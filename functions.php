@@ -1,4 +1,5 @@
 <?php
+
 function getCategoryChoices() {
     $categories = get_categories(array(
         'orderby' => 'name',
@@ -66,9 +67,14 @@ add_action('init', 'register_my_menu');
 add_theme_support('post-thumbnails');
 
 function get_breadcrumb() {
-    echo '<a href="' . home_url() . '" rel="nofollow">Home</a>';
+    ?>
+    <li><a href="<?= home_url(); ?>" rel="nofollow" title="Trang chủ"><i class="fa fa-home"></i> Trang chủ</a></li>
+    <?php
+//    echo '<a href="' . home_url() . '" rel="nofollow">Home</a>';
     if (is_category() || is_single()) {
-        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
+        $link = get_permalink();
+        $name = get_the_category();
+        echo "<li class='uk-active><a href='{$link}' title='$name'>$name</a></li>";
         the_category(' &bull; ');
         if (is_single()) {
             echo " &nbsp;&nbsp;&#187;&nbsp;&nbsp; ";

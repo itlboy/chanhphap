@@ -6,35 +6,41 @@ get_header();
         <div class="breadcrumb">
             <div class="uk-container uk-container-center">
                 <ul class="uk-breadcrumb">
-                    <?php echo get_breadcrumb(); ?>
-                    <li><a href="" title="Trang chủ"><i class="fa fa-home"></i> Trang chủ</a></li>
-
-                    <li class="uk-active"><a href="phap-thuc-hanh.html" title="Pháp thực hành">Pháp thực hành</a></li>
+                    <li><a href="<?php echo home_url() ?>" title="Trang chủ"><i class="fa fa-home"></i> Trang chủ</a></li>
+                    <li class="uk-active"><a href="<?php echo get_category_link($wp_query->get_queried_object_id()) ?>" title="<?php echo single_cat_title() ?>"><?php echo single_cat_title() ?></a></li>
                 </ul>
             </div>
         </div><!-- .breadcrumb -->
         <section class="artcatalogue">
             <div class="uk-container uk-container-center">
                 <header class="panel-head" style="margin-bottom:40px;">
-                    <h1 class="heading-1"><span>Pháp thực hành</span></h1>
+                    <h1 class="heading-1"><span><?php echo single_cat_title() ?></span></h1>
                 </header>
 
                 <section class="panel-body">
                     <ul class="uk-list uk-clearfix uk-grid uk-grid-width-small-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-3 list-blog">
-
-                        <li>
-                            <div class="blog">
-                                <div class="thumb"><a href="luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" /></a></div>
-                                <div class="info">
-                                    <h3 class="title"><a href="luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP">LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP</a></h3>
-                                    <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
-                                        <span>12:46:06 01/03/2019</span>
-                                        <span>Đã xem: 801</span>
-                                        <!--<span>Phản hồi: 0</span>-->
+                        <?php
+                        if (have_posts()):
+                            while (have_posts()):
+                                ?>
+                                <li>
+                                    <div class="blog">
+                                        <div class="thumb"><a href="luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" class="image img-cover"><img src="/uploads/images/post/phap-thuc-hanh/phap-thuc-hanh-2/maxresdefault-4-.jpg" alt="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP" /></a></div>
+                                        <div class="info">
+                                            <h3 class="title"><a href="luu-y-hanh-gia-dang-tu-hanh-theo-chanh-phap-a1104.html" title="LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP">LƯU Ý HÀNH GIẢ ĐANG TU HÀNH THEO CHÁNH PHÁP</a></h3>
+                                            <div class="meta uk-flex uk-flex-middle uk-flex-space-between">
+                                                <span>12:46:06 01/03/2019</span>
+                                                <span>Đã xem: 801</span>
+                                                <!--<span>Phản hồi: 0</span>-->
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </li>
+                                </li>
+                                <?php
+                            endwhile;
+                        endif;
+                        ?>
+
 
                         <li>
                             <div class="blog">
@@ -157,5 +163,4 @@ get_header();
 </section><!-- #body -->
 
 <?php
-
 get_footer();
