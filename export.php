@@ -33,6 +33,8 @@ insertToWordpress($mysqli, "lucltmra_wp879", $categories, $posts);
 
 function insertToWordpress($mysqli, $dbName, $categories, $posts) {
     $mysqli->select_db($dbName);
+    "DELETE FROM `wprg_posts` WHERE `post_author` = 2";
+    
     $mysqli->query("TRUNCATE TABLE wprg_posts");
     $mysqli->query("TRUNCATE TABLE wprg_term_taxonomy");
     $mysqli->query("TRUNCATE TABLE wprg_term_relationships");
@@ -62,7 +64,7 @@ function insertToWordpress($mysqli, $dbName, $categories, $posts) {
 
     foreach ($posts as $post) {
         insertToTable("wprg_posts", [
-            "post_author" => 1,
+            "post_author" => 2,
             "post_date" => date("Y-m-d H:i:s", $post['create_time']),
             "post_date_gmt" => date("Y-m-d H:i:s", $post['create_time']),
             "post_content" => $post['content'],
